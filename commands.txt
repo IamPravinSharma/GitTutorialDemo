@@ -1,0 +1,52 @@
+git diff 
+Compares working directory and staging area
+
+git diff -staged
+Compares last commit with staging area
+
+git commit -a -m "Comment"
+This command will skip putting file in staging area and directly commit it. It won't commit untracked files
+
+git rm <filename>
+This command will remove the file from working directory and put it in staging area for commit. 
+
+git mv <filename> <updatedfileName>
+This command will rename the file from working dir and put it in staging area for commit. 
+
+git rm --cached <File Name>
+This command will remove the file from tracking of git
+
+git log --pretty=1
+git log --pretty=short
+git log --stat
+git log --since=2.days
+git log --since=2.weeks
+git log --since=2.months
+
+git log --pretty=format:"%h -- %an"
+
+git commit --amend
+Amend the last commit. 
+
+git restore --staged <Filename>
+To unstage the file from staging area. 
+
+git checkout <filename>
+Restore the previous version 
+
+git checkout -f
+Restore all files to previous version commit
+
+git remote
+Will show remote repository status
+
+
+
+
+
+
+
+
+
+
+
