@@ -41,6 +41,15 @@ git remote
 Will show remote repository status
 
 
+To create new branch:
+git checkout -b <branch name>
+eg: git checkout -b DevelopBranch
+
+To switch branch
+git checkout <branchName>
+eg: git checkout master
+
+
 
 
 
