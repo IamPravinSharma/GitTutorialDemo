@@ -49,6 +49,10 @@ To switch branch
 git checkout <branchName>
 eg: git checkout master
 
+To see list of branches:
+git branch
+
+
 
 
 
