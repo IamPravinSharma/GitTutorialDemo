@@ -52,6 +52,10 @@ eg: git checkout master
 To see list of branches:
 git branch
 
+To merge the changes from one branch to another
+git merge <branch Name>
+
+
 
 
 
