@@ -3,3 +3,4 @@ This is second commit on my project
 Changed by me after removing git and tracking again.
 This is changed now.
 New line
+New line in bugfix branch
