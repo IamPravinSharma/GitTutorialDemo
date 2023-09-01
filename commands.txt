@@ -55,7 +55,8 @@ git branch
 To merge the changes from one branch to another
 git merge <branch Name>
 
-
+To push to remote branches 
+git push -u origin master
 
 
 
