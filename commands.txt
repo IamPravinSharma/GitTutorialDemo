@@ -34,6 +34,7 @@ To unstage the file from staging area.
 git checkout <filename>
 Restore the previous version 
 
+
 git checkout -f
 Restore all files to previous version commit
 
@@ -59,8 +60,11 @@ To push to remote branches
 git push -u origin master
 
 
+git push origin bugfix:mybugfix
+This command will create new mybugfix branch from bugfix in remote repository. Please note that no new branch will be created on local
 
-
+git push -d origin <bname>
+This command will delete the remote branch with name bugfix
 
 
 
